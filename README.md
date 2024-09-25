@@ -1,67 +1,41 @@
-README: Application Tracking System
-Overview
+# Application Tracking System (ATS)
 
-This application tracking system is built using Streamlit, a Python framework for building web applications. It leverages the Gemini API for advanced language capabilities and provides a user-friendly interface for tracking and managing applications.
+This **Application Tracking System (ATS)** is a web-based tool built with **Streamlit** that simplifies the hiring process. It allows you to upload applicant data, track progress, categorize applicants using **Gemini API**, and manage the interview process in an efficient and streamlined manner. The system is fully developed using **Python** and offers analytics on the hiring pipeline.
 
-Prerequisites
+## Features
 
-Python 3.7 or later
-Streamlit
-Gemini API credentials
-A text editor or IDE
-Installation
+- **Gemini API Integration**: Automatically categorizes and processes applications.
+- **Applicant Tracking**: Upload, view, and track the status of each applicant.
+- **Interview Scheduling**: Manage interviews directly through the platform.
+- **Data Visualization**: Provides insights into the number of applications, stages, and interview statuses.
+- **User-Friendly Interface**: Streamlit ensures a fast and simple user interface.
 
-Create a virtual environment (optional):
+## Demo
 
-Bash
-python -m venv venv
-source venv/bin/activate
-Use code with caution.
+A live demo of the project is hosted [here](#) (add your link).
 
-Install dependencies:
+## Installation
 
-Bash
-pip install   
- streamlit gemini-client
-Use code with caution.
+Follow the instructions below to set up and run the project locally.
 
-Set up Gemini API credentials:
+### Prerequisites
 
-Create a Gemini API account and obtain your API key.
-Store your API key in a .env file (or a secure location) and import it into your application.
-Usage
+- Python 3.7+
+- **Pip** for package management
+- API Key from **Gemini API**
 
-Run the application:
+### Setup Instructions
 
-Bash
-streamlit run app.py
-Use code with caution.
+1. Clone the repository to your local machine:
 
-Interact with the application:
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
 
-Use the provided interface to add, view, edit, and delete applications.
-Utilize the Gemini API for tasks like summarizing application details or generating responses to queries.
-Features
+### Key Points:
+1. Replace `your username/your-repo-name` with your GitHub repository details.
+2. Add your **Gemini API** key where needed.
+3. Optionally include a live demo link if hosted.
+4. Update the contact information as needed.
 
-Application management: Add, view, edit, and delete applications.
-Gemini API integration: Leverage the Gemini API for advanced language capabilities.
-User-friendly interface: Intuitive design for easy navigation and interaction.
-Customizable fields: Define application fields based on your specific requirements.
-Search and filtering: Efficiently search and filter applications based on various criteria.
-Customization
-
-Modify application fields: Customize the fields required for applications in the app.py file.
-Adjust Gemini API usage: Tailor the Gemini API calls to your specific needs.
-Enhance the user interface: Customize the appearance and layout using Streamlit's styling options.
-Contributing
-
-Contributions are welcome! Please follow these guidelines:
-
-Fork the repository.
-Create a new branch for your feature or bug fix.   
-Make your changes and commit them.
-Push your changes to your fork.
-Submit a pull request to the main repository.   
-License
-
-This project is licensed under the MIT License
+This is ready to be uploaded on GitHub.
